@@ -1,0 +1,15 @@
+.number {
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #692727;
+    color: #692727;
+    background-color: rgb(229, 206, 175);
+}
+.drawn {
+    border-width: 3px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: blanchedalmond;
+    text-shadow: 1px 1px 2px black;
+}

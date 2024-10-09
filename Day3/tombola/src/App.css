@@ -1,0 +1,7 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+header h1 { 
+  text-align: center;
+}
