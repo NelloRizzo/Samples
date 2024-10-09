@@ -24,10 +24,13 @@ export class FiscalCodeService {
         })
         return [letters.consonants, letters.vowels]
     }
-    private handleFirstName = (fn: string): string => { const [c, v] = this.separateLetters(fn); return (c + v + 'XXX').substring(0, 3) }
+    private handleFirstName = (fn: string): string => { 
+        const [c, v] = this.separateLetters(fn); 
+        if (c.length > 3) c = c[0] + c.substring(2)
+        return (c + v + 'XXX').substring(0, 3) 
+    }
     private handleLastName = (ln: string): string => {
         let [c, v] = this.separateLetters(ln);
-        if (c.length > 3) c = c[0] + c.substring(2)
         return (c + v + 'XXX').substring(0, 3)
     }
     private handleBirthday = (bd: Date, g: Gender): string => {
