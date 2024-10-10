@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+.display {
+    font-family: "Kode Mono", monospace;
+    font-size: 2em;
+    width: 100%;
+    text-align: end;
+    background-color: lightgrey;
+    padding: 3px;
+    border: 3px inset;
+}
+
+.calc {
+    padding: 15px;
+    border: 3px solid darkgrey;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.button:hover {
+    font-weight: bold;
+    background-color: lightgrey;
+}
+.empty-space {
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+}
+
+.button {
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px solid black;
+    background-color: gray;
+    color: white;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.op {
+    background-color: blue;
+    color: white;
+}
+
+.op:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.specials {
+    background-color: red;
+    color: white;
+}

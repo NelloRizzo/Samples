@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.statuses { background-color: black;}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
