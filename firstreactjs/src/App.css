@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 10fr 80fr;
+  grid-template-areas:
+    'header header'
+    'sidebar main';
+}
+
+.bordered {
+  border: 3px solid red;
+}
+
+.header {
+  grid-area: header;
+  background-color: gray;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: gray;
+}
+
+.main {
+  grid-area: main;
+  background-color: aquamarine;
+  padding: 5px 10px
+}
